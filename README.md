@@ -17,3 +17,22 @@ This project performs Customer Segmentation and Retention Analysis using transac
 - Seaborn
 - Scikit-learn
 - Jupyter Notebook
+
+## Dataset
+Online Retail Dataset (UCI Repository)
+
+## Workflow
+Data Cleaning
+Exploratory Data Analysis (EDA)
+Feature Engineering (RFM)
+Customer Segmentation using K-Means
+Cluster Analysis
+Business Insights
+
+## Customer Segments
+| Cluster ID | Customer Segment       | Description                                   |
+|------------|------------------------|-----------------------------------------------|
+| 0          | Loyal Customers        | Frequent and active buyers                    |
+| 1          | At-Risk Customers      | Inactive customers likely to churn            |
+| 2          | Champions (VIP)        | Highest frequency and spending customers       |
+| 3          | Ultra High Value       | Top-tier premium customers                    |
