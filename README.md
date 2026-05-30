@@ -8,3 +8,12 @@ This project performs Customer Segmentation and Retention Analysis using transac
 - Segment customers using K-Means clustering
 - Identify VIP, loyal, and at-risk customers
 - Generate business insights for retention strategy
+
+## Technologies Used
+- Python 
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Jupyter Notebook
