@@ -36,3 +36,22 @@ Business Insights
 | 1          | At-Risk Customers      | Inactive customers likely to churn            |
 | 2          | Champions (VIP)        | Highest frequency and spending customers       |
 | 3          | Ultra High Value       | Top-tier premium customers                    |
+
+
+## Key Insights
+A small group of customers contributes majority of revenue
+- VIP customers are highly active and valuable
+- Significant churn risk exists in Cluster 1
+- Strong opportunity for retention marketing
+
+## Sample Visualizations
+- Country-wise revenue analysis
+- Monthly sales trends
+- Customer segmentation scatter plots
+
+## How to Run the Project
+pip install pandas numpy matplotlib seaborn scikit-learn openpyxl    
+
+Then open:
+customer_segmentation.ipynb
+Run all cells sequentially.
