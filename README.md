@@ -72,13 +72,13 @@ Groups customers into:
 ![Dashboard](final_dashboard.png)
 
 ### Monthly Sales Trend
-![Sales Trend](images/monthly_sales.png)
+![Sales Trend](monthly_sales.png)
 
 ### Customer Segments
-![Segments](images/segment_distribution.png)
+![Segments](segment_distribution.png)
 
 ### Revenue by Country
-![Countries](images/country_sales.png)
+![Countries](country_sales.png)
 
 ## Business Insights
 
