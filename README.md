@@ -53,8 +53,8 @@ A small group of customers contributes majority of revenue
 pip install pandas numpy matplotlib seaborn scikit-learn openpyxl    
 
 Then open:
-customer_segmentation.ipynb
-Run all cells sequentially.
+- customer_segmentation.ipynb
+- Run all cells sequentially.
 
 ## Dashboard 
 
