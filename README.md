@@ -69,7 +69,7 @@ Groups customers into:
 ## Dashboard Visuals
 
 ### Customer Analytics Dashboard
-![Dashboard](images/final_dashboard.png)
+![Dashboard](final_dashboard.png)
 
 ### Monthly Sales Trend
 ![Sales Trend](images/monthly_sales.png)
