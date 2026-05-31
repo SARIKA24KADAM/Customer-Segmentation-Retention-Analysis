@@ -1,63 +1,106 @@
-# Customer-Segmentation-Retention-Analysis
-This project performs Customer Segmentation and Retention Analysis using transactional retail data. The goal is to understand customer behavior, identify high-value customers, and detect at-risk customers using RFM analysis and K-Means clustering.
+# Customer Segmentation & Sales Analytics Dashboard
 
-## Objectives
-- Perform data cleaning and preprocessing
-- Analyze sales and customer behavior
-- Build RFM (Recency, Frequency, Monetary) model
-- Segment customers using K-Means clustering
-- Identify VIP, loyal, and at-risk customers
-- Generate business insights for retention strategy
+A data science project that analyzes customer behavior, segments users using RFM analysis, and visualizes sales performance using interactive dashboards.
 
-## Technologies Used
+Goal: Turn raw retail data into actionable business insights.
+
+Outcome: Identified high-value customers, churn risks, and revenue trends.
+
+## Project Overview
+This project analyzes retail transaction data to understand customer behavior, sales performance, and revenue distribution.
+- Using customer purchase history, we performed exploratory data analysis (EDA), RFM-based segmentation, and business intelligence visualization to identify high-value customers, at-risk customers, and sales trends over time.
+- The goal is to help businesses make data-driven decisions for marketing, retention, and revenue optimization.
+
+## Business Problem
+Retail companies often struggle with:
+
+- Identifying high-value customers
+- Understanding customer churn risk
+- Tracking revenue trends over time
+- Optimizing marketing strategies
+
+This project solves these challenges using data analytics and segmentation techniques.
+
+## Dataset Information
+
+The dataset contains transactional retail data with the following features:
+
+- InvoiceNo: Unique transaction ID
+- StockCode: Product identifier
+- Description: Product name
+- Quantity: Items purchased
+- InvoiceDate: Transaction date
+- UnitPrice: Price per unit
+- CustomerID: Unique customer identifier
+- Country: Customer location
+- TotalPrice: Total transaction value
+- Month: Extracted time feature
+
+## Methodology
+
+1. Data Cleaning & Preprocessing
+2. Feature Engineering (RFM Analysis)
+3. Customer Segmentation using K-Means
+4. Exploratory Data Analysis (EDA)
+5. Business Intelligence Visualization
+6. Dashboard Creation (Static + Animated)
+
+## Key Visualizations
+
+### Monthly Sales Trend
+Shows revenue growth over time and seasonal patterns.
+
+### Top Products Sold
+Identifies best-selling products driving revenue.
+
+### Top Countries by Revenue
+Highlights geographic sales distribution.
+
+### Revenue Distribution
+Shows how order values are spread across transactions.
+
+### Customer Segmentation Dashboard
+Groups customers into:
+- Champions
+- Loyal Customers
+- At-Risk Customers
+- Ultra High Value Customers
+
+## Dashboard Visuals
+
+### Customer Analytics Dashboard
+![Dashboard](images/final_dashboard.png)
+
+### Monthly Sales Trend
+![Sales Trend](images/monthly_sales.png)
+
+### Customer Segments
+![Segments](images/segment_distribution.png)
+
+### Revenue by Country
+![Countries](images/country_sales.png)
+
+## Business Insights
+
+- A small percentage of customers generate majority of revenue (Pareto principle)
+- High-value customers show strong frequency and monetary patterns
+- Several high-spending customers are at risk due to inactivity
+- Seasonal spikes in sales indicate demand-driven purchasing behavior
+- Certain countries contribute disproportionately to total revenue
+
+## Tools & Technologies
+
 - Python 
 - Pandas
-- NumPy
 - Matplotlib
 - Seaborn
 - Scikit-learn
 - Jupyter Notebook
 
-## Dataset
-Online Retail Dataset (UCI Repository)
+## Project Impact
 
-## Workflow
-Data Cleaning
-Exploratory Data Analysis (EDA)
-Feature Engineering (RFM)
-Customer Segmentation using K-Means
-Cluster Analysis
-Business Insights
-
-## Customer Segments
-| Cluster ID | Customer Segment       | Description                                   |
-|------------|------------------------|-----------------------------------------------|
-| 0          | Loyal Customers        | Frequent and active buyers                    |
-| 1          | At-Risk Customers      | Inactive customers likely to churn            |
-| 2          | Champions (VIP)        | Highest frequency and spending customers       |
-| 3          | Ultra High Value       | Top-tier premium customers                    |
-
-
-## Key Insights
-A small group of customers contributes majority of revenue
-- VIP customers are highly active and valuable
-- Significant churn risk exists in Cluster 1
-- Strong opportunity for retention marketing
-
-## Sample Visualizations
-- Country-wise revenue analysis
-- Monthly sales trends
-- Customer segmentation scatter plots
-
-## How to Run the Project
-pip install pandas numpy matplotlib seaborn scikit-learn openpyxl    
-
-Then open:
-- customer_segmentation.ipynb
-- Run all cells sequentially.
-
-## Dashboard 
-
-![image](final_dashboard.png)
-
-
+This project demonstrates:
+- Real-world data analytics workflow
+- Customer segmentation using machine learning
+- Business intelligence reporting
+- Data storytelling for decision-making
