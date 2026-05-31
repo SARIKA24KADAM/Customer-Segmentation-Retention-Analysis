@@ -58,6 +58,6 @@ Run all cells sequentially.
 
 ## Dashboard 
 
-https://github.com/SARIKA24KADAM/Customer-Segmentation-Retention-Analysis/blob/main/final_dashboard.png 
+![image](final_dashboard.png)
 
 
