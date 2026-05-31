@@ -55,3 +55,9 @@ pip install pandas numpy matplotlib seaborn scikit-learn openpyxl
 Then open:
 customer_segmentation.ipynb
 Run all cells sequentially.
+
+## Dashboard 
+
+https://github.com/SARIKA24KADAM/Customer-Segmentation-Retention-Analysis/blob/main/final_dashboard.png 
+
+
